@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<! - titles ->
+    <String name = "title_activity_awareness"> E-mail forgery </ string>
+<String name = "title_activity_credits"> Credits </ string>
+
+    <! - splash ->
+
+    <! - menu buttons ->
+    <String name = "end_app"> Stop App </ string>
+    <String name = "end_app_text"> Are you sure you want to quit the app? </ String>
+    <String name = "end_app_yes"> Yes </ string>
+    <String name = "end_app_no"> No </ string>
+    <String name = "reset_app"> Reset </ string>
+    <String name = "reset_app_text"> Are you sure you want to reset the app? \ NHowever, all progress is lost. \ N \ nThe app will restart within seconds. </ String>
+    <String name = "start_menu"> Learn to protect yourself against the Internet threat \ "Phishing \"! </ String>
+    <String name = "sign_out"> Sign Out </ string>
+    <String name = "button_play"> Play </ string>
+    <String name = "button_play_on"> Continue </ string>
+    <String name = "button_level_overview"> Levels </ string>
+    <String name = "button_more_info"> More information </ string>
+    <String name = "button_about"> About us </ string>
+    <String name = "button_show_online_achievement"> Your Success </ string>
+    <String name = "button_show_leaderboard_rate"> Leaderboard Rate </ string>
+    <String name = "button_show_leaderboard_total"> Leaderboard Found Phishes </ string>
+<String name = "button_show_leaderboard_total_points"> Highscore </ string>
+<String name = "button_delete_remote_data"> Delete online game </ string>
+<String name = "button_show_snapshots"> Show all snapshots </ string>
+    <String name = "google_plus_text"> If you want to share your games with your friends on google + and save your score online, sign up with Google+ </ string>
+    <String name = "google_plus_disclaimer"> Please note that it is currently not possible to delete the services and rank list positions. The game can be deleted. </ String>
+    <String name = "google_plus_data_deleted"> Your online game has been deleted. </ String>
+    <String name = "google_plus_snapshot_load_problem"> There was a problem loading your game: </ string>
+    <String name = "google_plus_snapshot_load_ok"> Your online game has been loaded. </ String>
+    <String name = "button_social"> Google Play </ string>
+    <String name = "button_reset"> Reset all </ string>
+    <String name = "button_credits"> Credits </ string>
+    <String name = "button_quiz"> Tests for knowledge </ string>
+    <String name = "button_close"> Stop App </ string>
+    <String name = "quiz_text"> Here are three links to help you test your phishing knowledge. These tests are better to perform on the tablet (because of the examples). \ N \ nClicking the quiz links will take you to the SoSciSurvey website. SoSciSurvey was designed for conducting online surveys in a scientific context and allows the simultaneous evaluation and thus the improvement of NoPhish. </ String>
+
+    <! - More Info ->
+    <String name = "info_apwg"> Anti-Phishing Working Group </ string>
+    <String name = "info_security_comic"> Comics to Phishing </ string>
+    <String name = "info_how_phishing_works"> How phishing works </ string>
+    <String name = "url_apwg"> http://www.antiphishing.org </ string>
+    <String name = "url_securitycomic"> http://www.securitycartoon.com </ string>
+    <String name = "url_how_phishing_works"> http://computer.howstuffworks.com/phishing.htm </ string>
+    <String name = "more_info_text"> Here is a collection with external links about phishing. This does not claim to be complete. </ String>
+
+    <! - About ->
+    <String name = "about_text"> This app was developed by the research group SECUSO of the TU Darmstadt. The first version of this app was developed by Clemens Bergmann and Gamze Canova as part of their master thesis. This app has been evaluated using user studies and further developed on the basis of the results of the evaluations. The changes were made by Philipp Rack. </ String>
+    <String name = "about_contact"> <b> Darmstadt University of Technology </ b> \ nFachbereich Informatik \ nFachgebiet Security, Usability & Society \ nLeading: Prof. Dr. Melanie Volkamer \ nBuilding S4 | 14 \ nMornewegstr. 30 \ n64293 Darmstadt \ n \ nEmail: kontakt@secuso.org </ string>
+
+<! - LEVEL TITLES ->
+    <String name = "level_title_00"> Introduction 1 </ string>
+    <String name = "level_title_01"> Introduction 2 </ string>
+    <String name = "level_title_02"> Level 1 </ string>
+    <String name = "level_title_03"> Level 2 </ string>
+    <String name = "level_title_04"> Level 3 </ string>
+    <String name = "level_title_05"> Level 4 </ string>
+    <String name = "level_title_06"> Level 5 </ string>
+    <String name = "level_title_07"> Level 6 </ string>
+    <String name = "level_title_08"> Level 7 </ string>
+    <String name = "level_title_09"> Level 8 </ string>
+    <String name = "level_title_10"> Level 9 </ string>
+    <String name = "level_title_11"> Conclusions </ string>
+    <String name = "level_subtitle_00"> phishing </ string>
+    <String name = "level_subtitle_01"> The status line </ string>
+    <String name = "level_subtitle_02"> Structure of web addresses </ string>
+    <String name = "level_subtitle_03"> IP address </ string>
+    <String name = "level_subtitle_04"> Random Probing Partner </ string>
+    <String name = "level_subtitle_05"> Department of the department </ string>
+    <String name = "level_subtitle_06"> Range of the conversation header </ string>
+    <String name = "level_subtitle_07"> Additions </ string>
+    <String name = "level_subtitle_08"> Typing error </ string>
+    <String name = "level_subtitle_09"> Similar characters </ string>
+    <String name = "level_subtitle_10"> The security level </ string>
+    <String name = "level_subtitle_11"> Tricks & amp; Notes </ string>
+    <String name = "level_03_splash_subtitle"> Talk partner does not appear in the web address at all </ string>
+    <String name = "level_04_splash_subtitle"> IP address as the user area </ string>
+    <String name = "level_05_splash_subtitle"> Similar call partners in the department </ string>
+    <String name = "level_06_splash_subtitle"> Similar conversation partners in the conversation area </ string>
+    <String name = "level_07_splash_subtitle"> Similar discussion partners in the field </ string>
+    <String name = "level_08_splash_subtitle"> Typing errors in the Wer area </ string>
+    <String name = "level_09_splash_subtitle"> Similar characters in the area. </ String>
+    <String name = "level_10_splash_subtitle"> The range of the security level </ string>
+    <String name = "level_11_splash_subtitle"> Tricks & amp; Notes </ string>
+    <String name = "level_11_splash_01_subtitle"> Conning web addresses </ string>
+    <String name = "level_11_splash_02_subtitle"> Addition to https: // </ string>
+    <String name = "level_11_splash_03_subtitle"> Dangers when clicking links </ string>
+    <String name = "level_11_splash_04_subtitle"> Other Tricks </ string>
+
+<! - Awareness activity ->
+    <String name = "awareness_text_hint"> Here you can enter any text to appear in the email. </ String>
+    <String name = "awareness_email_hint"> Please enter an authentic (or existing) e-mail address, which should appear as a sender. </ String>
+    <String name = "btn_send"> Send </ string>
+    <String name = "hint_text"> Enter text here </ string>
+    <String name = "awareness_missing_email_sender_or_receiver"> Please enter sender and recipient. </ String>
+    <String name = "awareness_invalid_email"> The sender or recipient e-mail is invalid. Please check your entries. </ String>
+    <String name = "awareness_email_sent"> Email sent </ string>
+    <String name = "awareness_alert_message"> Please check your emails about your smartphone. You should have received a fake e-mail. Read this thoroughly. You will then return to the app. </ String>
+    <String name = "awareness_second_alert_message"> Please note that the arrival of the e-mail may take a few minutes. Possibly. You must also look in your junk / spam folder. If the e-mail still does not arrive, please enter a different sender address. </ String>
+    <String name = "awareness_resend_email"> E-mail not received </ string>
+    <String name = "awareness_to_mail"> Go to mail application </ string>
+    <String name = "awareness_skip"> Skip </ string>
+   
+    <! - Buttons ->
+    <String name = "level_01_exercise_text_01"> <b> Now you're in the line </ b> \ n \ n1. Click on the \ "Click here \" button to open a practice page. \ N \ n2. Wait until the web page is fully loaded. \ N \ n3. Solve the task on the website. When you have solved the task, you are automatically returned to the app. </ String>
+    <String name = "level_01_exercise_button_click_here"> Click here </ string>
+    
+    <! - Level 2 - Examples ->
+    <String name = "level_02_example_amazon"> http://www.amazon.de </ string>
+    <String name = "level_02_example_googlemail"> https://mail.google.com/mail/?shva=1#inbox </ string>
+    <String name = "level_02_example_ebay"> http://pages.ebay.de/help/sell/quick-listing-tool.html </ string>
+    <String name = "level_02_example_facebook"> https://secure.facebook.com/settings?tab=payments </ string>
+    <String name = "level_02_example_amazon_01"> http: // www. </ String>
+    <String name = "level_02_example_amazon_02"> amazon.de </ string>
+    <String name = "level_02_example_gmail_01"> https: // mail. </ String>
+    <String name = "level_02_example_gmail_02"> google.com </ string>
+    <String name = "level_02_example_gmail_03"> / mail / </ string>
+    <String name = "level_02_example_gmail_04"> \? Shva \ = 1 \ #inbox </ string>
+    <String name = "level_02_example_ebay_01"> http: // pages. </ String>
+    <String name = "level_02_example_ebay_02"> ebay.de </ string>
+    <String name = "level_02_example_ebay_03"> / help / sell / </ string>
+    <String name = "level_02_example_ebay_04"> quick-listing-tool.html </ string>
+    <String name = "level_02_example_facebook_01"> https: // secure. </ String>
+    <String name = "level_02_example_facebook_02"> facebook.com </ string>
+    <String name = "level_02_example_facebook_03"> / </ string>
+    <String name = "level_02_example_facebook_04"> settings? Tab = payments </ string>
+    <String name = "location"> Location </ string>
+    <String name = "company"> Company </ string>
+    <String name = "departments"> Departments </ string>
+    <String name = "http" // http: // </ string>
+    <String name = "https"> https: // </ string>
+    <String name = "www"> www. </ String>
+    <String name = "http_description"> Security Level </ string>
+    <String name = "domain"> abo.spiegel.de </ string>
+    <String name = "domain_spiegel"> mirror </ string>
+    <String name = "subdomain"> abo </ string>
+    <String name = "domain_description"> Information about \ ncontractors themselves </ string>
+    <String name = "path"> / digital </ string>
+    <String name = "path_dot_dot_dot"> / ... </ string>
+    <String name = "path_description"> Conversation \ ntory </ string>
+    <String name = "domain_de"> de </ string>
+    <String name = "dot">. </ String>
+    <String name = "first_attack"> <b> First Attack </ b> </ string>
+    <String name = "new_attack"> <b> New attack </ b> </ string>
+    <String name = "slash"> / </ string>
+    <String name = "reminder"> <b> Reminder - Web addresses </ b> </ string>
+    <String name = "former_attacks"> <b> Previous attacks </ b> </ string>
+
+<! -
+     Level Texts
+    ->
+    
+    <! - Level E1 - Awareness ->
+    <! - <string name = "level_00_intro_00_text_01"> <b> Phishing </ b> \ n \ n \ "Phishing \" is a word creation that combines a combination of the two English terms \ "phreaking \" and \ "Fishing \" (fishing). It is a technique by which fraudsters on the Internet try to protect your sensitive data, Passwords, contests, or credit card data. \ N \ nThe fraudsters use this data to hurt you, e.g. (Eg, emails, SMS, social networks, or Skype) to access your sensitive data, to send your account, to purchase on your behalf, or to contact friends and work colleagues. \ N \ . These messages look like news from people or institutions you trust (for example, from Amazon, Facebook, or your bank) at first glance. In the message, you are asked to either return data directly or enter a link. The link usually leads to a website, which at first glance looks trustworthy. It is, however, a fake copy, a so-called phishing page. If you enter your data here, they will be picked up immediately by the fraudster. </ String> ->
+    <String name = "level_00_intro_00_text_01"> <b> Phishing </ b> \ n \ n \ "Phishing \" is a word creation that combines a combination of the two English terms \ "phreaking \" and "fishing" (Fishing). This is a technique by which fraudsters use fake messages to try to spread malicious software (e.g., viruses), or to detect your sensitive data, Passwords, account data or credit card data. \ N \ nTo get sensitive data, the fraudsters send you fake messages (for example in the form of e-mails, SMS, social networks or Skype). These messages look like news from people or institutions you trust (for example, from Amazon, Facebook, or your bank) at first glance. The range of fraudulent messages ranges from messages with the request to publish private data, to messages with dangerous file names, to "classic phishing" messages, ie messages with dangerous links. By means of these classic phishing messages, the fraudsters want to move their potential victims to (hasty) click on such dangerous links. If the recipient follows such a link, he either directly downloads malicious software to the device (e.g., a PC or smartphone), or he is directed to a web page of the fraudsters claiming to be the website of the imitated institution. It is, however, a fake copy, a so-called phishing page. If you enter your sensitive data here, they are immediately picked up by the fraudsters. </ String>
+    <String name = "level_00_finish_00_text_01"> <b> Done! </ B> \ n \ nYou have successfully completed Introduction 1. </ string>
+    <String name = "level_00_intro_02_text_01"> <b> Send yourself an email from any sender </ b> </ string>
+    <String name = "level_00_intro_02_text_02"> Your e-mail address: </ string>
+    <String name = "level_00_intro_02_text_03"> Sender's e-mail: </ string>
+    <String name = "level_00_intro_02_text_04"> Optional free text: </ string>
+    <String name = "level_00_finish_00a_text_01"> <b> Not arrived at Google? </ B> \ n \ nYou probably think you're on Google's website. Unfortunately, you can trust the links in an e-mail or links in general just as little as the given e-mail sender and the rest of the content of the e-mail. </ String>
+    <String name = "level_00_intro_01_text_01"> <b> General Information: </ b> \ n \ n1) It is easy to fake the sender of an e-mail. This can be everyone, even without great prior knowledge. Accordingly, you should be careful in assessing the trustworthiness of messages (emails, Skype, social networks, etc.). This is particularly true if they contain a link. You should be careful not only with links that you seem to be familiar with, but also with those who are called "click here," for example. \ N \ n2.) Furthermore, clicking on links does not necessarily lead to the web address Listed in the link. Most e-mail applications do not provide a way to recognize the real goal of links at first glance. \ N \ nTo find the real goal of a link, use the finger on the link. Depending on the mail program, the target is displayed either in a small window directly next to the mouse pointer, or in the status bar at the bottom of the opened mail. \ N \ nPhishing emails and phishing websites can only be </ b> </ b> On the web address (the link). Therefore, we explain to you in this app how you get the authenticity
+
+<! - Level E2 - ADDRESS LEAD ->
+    <String name = "level_01_intro_00_text_01_old"> <b> The address bar </ b> \ n \ nThe first thing you need to know is how to get to the web address with your smartphone. This is the same with every Android browser. Two things are important: \ n \ n1.) Find the address bar. \ N2.) View the web address completely. </ String>
+    <String name = "level_01_intro_00_text_01"> The Who Area is the most important area for detecting phishing URLs. In technical language, it is called domain. This is usually displayed in the status line. \ N \ nIf mobile devices (smartphones and tablets), the procedure for identifying the web address that is behind a link depends heavily on the device. Most of the time, you need to press the link for about 2 seconds, but do not click. \ N \ nThe following are the two most popular systems, Android and iOS. </ String>
+    <String name = "level_01_intro_00_button_01"> I can do that! </ String>
+    <String name = "level_01_intro_01_text_01_old"> <b> Find the address bar </ b> \ n \ nAll pages are so large that the actual web page is displayed on the entire display and therefore the address bar is not visible But you can drag down the finger on the website (if necessary several times) until you have reached the top of the website and the address bar appears. </ String>
+    <String name = "level_01_intro_02_text_01_old"> <b> View the Web address completely </ b> \ n \ n As soon as you see the address bar, you will not always see the full web address as it is often too long. However, it is very important to look at it as a whole. \ N \ nTo view the entire web address, touch the address text with your finger. </ String>
+    <String name = "level_01_intro_01_text_01"> <b> Android \ n </ b> </ string>
+    <String name = "level_01_intro_02_text_01"> <b> iOS \ n </ b> </ string>
+    <String name = "level_01_intro_03_text_01"> <b> View the web address completely </ b> \ n \ nThis will cause the web address to be highlighted and you'll see the end of the web address
+    <String name = "level_01_intro_03_text_02"> Now you have to drag the web address with your finger to the right (possibly several times) until you get to the beginning of the web address. </ String>
+    <String name = "level_01_intro_03_text_03"> By dragging left and right, you can view the entire web address. </ String>
+    <String name = "level_01_finish_00_text_01"> <b> Done! </ B> \ n \ nYou have successfully completed Introduction 2 </ string>
+    <String name = "level_01_finish_00_text_02"> <b> Notes: </ b> In the following levels, learn how to distinguish trustworthy web addresses from phishing web addresses
+
+    <! - Let the web addresses in the future display exactly as you have learned to check the web address. This is especially important when you receive an unexpected e-mail with a link.
+    ->
+<! - LEVEL 1 - WEB-ADDRESSES ->
+    <String name = "level_02_intro_00_text_01"> <b> Structure of web addresses </ b> \ n \ nTo find a fake web site using web addresses, it is important to understand the structure of a web address. In this and the following levels, you will learn this by degrees. \ N \ nA first example of a web address: </ string>
+    <String name = "level_02_intro_00_text_02_url"> http://abo.spiegel.de/spiegel-digital </ string>
+    <String name = "level_02_intro_01_text_01"> <b> The most important components of a web address </ b> \ n \ nWebadressen are very complex. For this reason, we would like to explain everything as simply as possible. To this end, we will look at the website you are visiting from now on as your \ "conversation partner \". Already in the web address (as in a conversation) you will get the first important information, which we will discuss in more detail. </ String>
+    <String name = "level_02_intro_02_text_01"> <b> The key elements of a web address </ b> \ n \ nThe following graphic summarizes what the individual components of a web address say about the conversation
+    <String name = "level_02_intro_02_text_02"> The violet area represents the security level of the conversation. The options are "http: // \" and "https: // \". What the difference is, you will learn at an advanced level. The blue area gives you information about your conversation partner and the orange filed area tells you the conversation. This area can also be missing. </ String>
+    </ B> \ n \ nIn this and the next few levels, we will mainly deal with the blue part of the web address as it is very important To know who your conversation partner is! \ N \ nThe area <b> between \ "" http: // \ "and the third slash \" / \ "</ b> gives you information about your conversation partner The remaining areas can now be ignored. </ String>
+    </ B> <b> <b> <b> <b> <b> <b> <b> This is the number of blocks that can be used by the user Right to left. </ String>
+    <String name = "level_02_intro_05_text_01"> <b> Location information </ b> \ n \ nThe first block (from the right) tells you the location of your conversation partner. In this case \ "de \" for Germany. </ String>
+    <String name = "level_02_intro_06_text_01"> <b> Partner details </ b> \ n \ nThe second block (from the right) tells you which \ "company \" "your conversation partner belongs to
+    <String name = "level_02_intro_07_text_01"> <b> Department Information </ b> \ n \ nAfter the third block (from the right), describe all the remaining blocks </ String>
+    <String name = "level_02_intro_08_text_01"> <b> The Who Area </ b> \ n \ nThe two most important blocks of a web address are the first two blocks (from the right). We call it \ "Who-Area \" (company + location). This area must be accessible from each call partner, i. Each website, be registered at a central location. Already registered names can not be registered again. These two blocks tell you who your <b> is </ b> actually </ b>, so you should always identify and check them. </ String>
+    <String name = "level_02_intro_08_domain_description"> Who Area \ n (Conversation Partner + Location) </ string>
+    <String name = "level_02_intro_08_subdomain_description"> Departments </ string>
+    <String name = "level_02_intro_09_text_01"> <b> Examples </ b> \ n \ nThe following is a few examples of web addresses. First consider yourself which area in the given web addresses is the Wer-Bereich. Then check your results by continuing. </ String>
+    <String name = "level_02_intro_10_text_01"> <b> Examples - Resolution </ b> \ n \ nThe following is a few examples of web addresses. First consider yourself which area in the given web addresses is the Wer-Bereich. Then check your results by continuing. </ String>
+    <String name = "level_02_outro"> If you are unsure how the area of ??your conversation partner looks, ask for security directly at this. </ String>
+    <String name = "level_02_exercise_text_01"> Now it's your turn: \ n \ nAfter the previous examples, you should determine your own area of ??the following web addresses. \ N \ nTo do this, click \ "Verify \ "If your answer is to be verified. </ String>
+    <String name = "level_02_task"> <b> Now type </ b> the Who section of the following web addresses. </ String>
+    <String name = "level_02_you_are_wrong"> Unfortunately, you could not identify the Who area. Therefore, you lose a life. </ String>
+    <String name = "level_02_you_are_correct"> Very good! You could identify the area. </ String>
+    <String name = "level_finished"> <b> Done! </ B> \ n \ nGratulation! You have successfully completed the level. Move to the next level! </ String>
+
+    <! - Level 2 - IP NO BRAND ->
+    <String name = "level_04_intro_00_text_01"> <b> Attack by IP address as a wer area </ b> \ n \ nPhisers use different deceptive maneuvers to make web addresses look trustworthy even though they are not. \ N \ nYou will You'll learn how to use tricks to try and get you started. \ N \ nIn this level, we're working on one of the simplest tricks, using IP addresses instead of terms in the web address's area. </ String >
+    <String name = "level_04_intro_01_text_01"> <b> IP addresses </ b> \ n \ nIf our homes are addressed by street names, computers are identified with so-called IP addresses
+    <String name = "level_04_intro_01_text_02"> An IP address is a sequence of 4 blocks of numbers separated by dots. </ String>
+    <String name = "level_04_intro_01_example_ip"> Example: 192.168.10.15 </ string>
+    <String name = "level_04_intro_01_img_descr_computer"> IP address </ string>
+    <String name = "level_04_intro_01_img_descr_house"> House address </ string>
+    <String name = "level_04_intro_03_text_02"> <b> Attack by well-known interlocutors in the departments </ b> </ string>
+
+    <! - Level 3 - NO FIRE ->
+    <String name = "level_04_a_intro_00_text_01"> <b> Name of the conversation partner does not occur at all </ b> \ n \ nOne further trick is the call partner at all not in the web address to use. With this type of attack, we are working on this level. \ N \ n \ n \ n \ n \ n \ n \ n \ n \ n \ n \ n \ n \ n In the area you can only use small letters and numbers as well as a hyphen (-) \ N- Amazon becomes amazon.de \ n- VHS becomes vhs.de \ n- Deutsche Bank becomes deutsche-bank.de \ n-1 & 1 becomes 1und1.de \ n \ nWebadressen does not necessarily start with www (Applies to real and phishing URLs). \ N \ nWe could not have used umlauts in the past. Therefore, umlauts are often converted, e.g. "Ü" in "ue" at www.muenchen.de. </ String>
+    <String name = "level_04_a_intro_00_text_02"> Some phishers do not even bother mentioning the name of your friend in the web address. If the web address does not contain the name of your conversation partner, then <b> do not enter any data on this web page, even if the area is trustworthy! </ B> \ n \ nWe are an example of a phishing web address Application. In the second example, your conversation partner is secure-login.com (highlighted in blue). This is the main area of ??the web address, the Who area. <B> Do not enter any data on this website, even if the web address sounds trustworthy! </ B> </ string>
+<! - Level 4 - SUBDOMAIN ->
+    <String name = "level_03_intro_00_text_01"> <b> Attack by well-known interlocutors in the department </ b> \ n \ n Another trick is the use of known names in the departments of a web address. With this type of attack, we are working on this level. </ String>
+    <String name = "level_03_intro_01_text_01"> <b> Reminder </ b> \ n \ nThe area between \ "http: // \" and the third slash \ "/ \" will give you information about your conversation partner; On the web page. \ N \ nThis area is divided into blocks by points, and the blocks are read from right to left. </ String>
+    <String name = "level_03_intro_02_text_01"> <b> naming departments </ b> \ n \ nThe most important section of a web address, the ad area, must also be registered by the phisher and registered names can not be registered again. However, the area of ??the departments (light blue) of a web address can be named by anyone. </ String>
+    <String name = "level_03_intro_03_text_02"> Phishers can easily use familiar interlocutors in their departments to deceive you. Do not rely on this area. Also check out the main two blocks of the web address, the Who area. If the section of the department contains known contacts, and the user area contains nonsensical, disreputable or even untrustworthy conversation partners instead of the name of your conversation partner, then <b> do not enter any data on this website! </ B> \ n \ nUnten is a Example of a phishing web address that applies this principle. In the example, your call partner is badcat.de and secure-update.com (in blue). This is the main area of ??the web address, the Who area. Your call partner is not google.com or microsoft.com! These two are only the names of a department of the respective company. This area is of no relevance to your web address investigation. This is also the reason why we are reading web addresses from right to left: <b> the Wer-Bereich is more important than the department! </ B> </ string>
+
+    <! - LEVEL 5 - deceiving path part ->
+    <String name = "level_09_intro_00_text_01"> <b> Attack by using known conversation partners in the conversation thread. </ B> \ n \ nAn additional trick to lead you back is to use known conversation partners in the conversation. With this type of attack, we are working on this level. </ String>
+    <String name = "level_09_intro_02_text_01"> <b> Conversation theme area </ b> \ n \ nWe want to deal with another section of the web address, the conversation theme. \ N \ nThe <b> / \ "</ B> tells you what you are talking to your conversation partner, the website. </ String>
+    <String name = "level_09_intro_02_before_path"> http://abo.spiegel.de </ string>
+    <String name = "level_09_intro_02_path"> mirror-digital </ string>
+    <String name = "level_09_intro_03_text_03"> The area of ??the conversation theme is in the hands of the phishers. That is, he can name this area as he wants. It can also be used by you to familiarize yourself with known partners or even whole web addresses. So, look at only the most important two blocks of a web address, the Who area, to check who your conversation partner is. Do not trust the conversation section. If the area of ??the conversation section contains known call partners or web addresses, and the wer area contains an IP address, nonsensical, disreputable or even trustworthy call partners instead of the name of your call partner, <b> do not enter any data on this website! </ B > \ N \ nWe are an example of a phishing web address that applies this principle. In the example, your call partner is 95.130.22.98 (IP address) or account-settings.de (blue background). This is the most important area of ??the web address, the Who area. Your call partner is not google.de or facebook.com (orange deposited). These are just a part of the conversation theme. <B> This area is of no relevance to your web address investigation. </ B> Especially for such attacks, it is very important to ensure that you have scrolled to the beginning of the web address, where http (s): // for the first time </ String>
+<! - LEVEL 6 - SIMILAR DOMAINS ->
+    <String name = "level_07_intro_00_text_01"> <b> Attack by similar callers in the field </ b> \ n \ nAn additional trick to cast light on is to use names in the wer area that match the name of the dir Familiar conversation partner are very similar. With this type of attack, we are working on this level. </ String>
+    <String name = "level_07_intro_03_text_02"> You'll need to know how the area of ??the web addresses that you're usually visiting looks like. The phisher can register names that are very similar to the familiar conversationalist. So check out the main two blocks of the web address, the Who area. If there is only a similar modification of the familiar domain, then <b> do not include any data on this website! </ B> \ n \ nWe are three examples of phishing web addresses that apply this principle. In the examples, your call partner is facebook-login.com, apple-support.com or ebay-verify.de (in blue). These are the areas of the web addresses. </ B> \ n \ nIf you want to use the <b> English </ b> name and pronunciations in the English: \ n \ nappel.de instead of apple.de \ Ngoogel.de instead of google.de </ string>
+    <String name = "level_07_intro_03_text_03"> <b> 1. </ B> </ string>
+    <String name = "level_07_intro_03_facebook_login"> facebook-login.com </ string>
+    <String name = "level_07_intro_04_text_02"> The most important area of ??a web address, the "wer" area, must also be registered by the phisher. In this case, the phisher can take a familiar user area of ??a web page, insert a typo or even a spider into the name, and then register that name as its user area. So look at the main two blocks of the web address, the area. So read this area letter for letter. If the Wer-Bereich contains a typo or a letter-holder, then do not enter any data on this website! </ B> \ n \ nWe are an example of a phishing web address that applies this principle. In the first example, your conversation partner is mircosoft.com, in the second twitetr.com (blue background). <B> The Wer-Bereich contains a letter-reader. </ B> </ string>
+    <String name = "level_07_intro_04_text_03"> <b> Typing errors in the Wer area </ b> </ string>
+    <String name = "level_07_intro_04_fracebook"> fracebook.com </ string>
+    <String name = "level_07_intro_04_path"> / login </ string>
+    <String name = "level_07_intro_05_text_03"> <b> 3. Letter-turners in the field </ b> </ string>
+    <String name = "level_07_intro_05_mircosoft"> mircosoft.com </ string>
+    <String name = "level_07_intro_05_path_01"> / en-us </ string>
+    <String name = "level_07_intro_05_path_02"> / default.aspx </ string>
+    <String name = "level_07_intro_06_text_01"> <b> Summary </ b> </ string>
+    <String name = "level_07_intro_06_text_02"> 1.) If the area contains only a similar modification of the previously known user area, do not enter any data on this website! </ String>
+    <String name = "level_07_intro_06_text_03"> 2.) If the Wer-Bereich contains a typing error, do not enter any data! </ String>
+    <String name = "level_07_intro_06_text_04"> 3.) If the Wer-Bereich contains a letter ruler, do not enter any data on this website! </ String>
+
+    <! - LEVEL 7 - TYPOS ->
+    <String name = "level_07_intro_02_text_01"> <b> Attack by typing error in the Wer area </ b> \ n \ nIf another trick is to blame, registering the Wer area is a typo Area. With this type of attack, we are working on this level. \ N \ n <b> Sample text for clarification: </ b> Enemir Sutide of the Cabrmidge Uvinister is nitit witihcg, in which rneflogheie the Bstachuebn in eneim Wrot snid, the ezniige Which is wthhiig, that the estre and the litte Bblechue at the ritihcegn Pstoiion snid.
+The Rset knan a ttoaelr Bsinöldn sien, tedztormknan one him onhe Pemoblre lseen. This is how we nzhtjenn Bstachuebn encelin leesn, snderon the wrot as gseatems. </ String>
+    <String name = "level_07_intro_05_text_02"> The most important area of ??a web address, the wer area must also be registered by the phisher. The phisher can simply use a letter-driver in you familiar areas and then register this name with a letter-ringer. So look at the main two blocks of the web address, the <b> </ b> very precisely, because letters are difficult to recognize. If the Wer-Bereich contains a letter-keeper, then <b> do not enter any data on this website! </ B> \ n \ nWarning is an example of a phishing web address that applies this principle. In the example, your conversation partner is twitetr.com (blue background). <
+Google Translate for Business:Translator ToolkitWebsite TranslatorGlobal Market Finder
+
+<! - NONSENSE DOMAINS ->
+    <String name = "level_05_intro_00_text_01"> <b> Attack by non-foolish or nonsensical names in the wer area </ b> \ n \ nOther trick is the use of undocumented or even nonsensical names in the wer area of ??a web address. With this type of attack, we are working on this level. </ String>
+    <String name = "level_05_intro_02_text_03"> The most important area of ??a web address, the "wer" area, must also be registered by the phisher. So look at the main two blocks of the web address, the area. If the domain name contains no meaning or nothing related to the service or business of your conversational partner, then do not enter any data on this website! </ B> \ n \ nUnited is an example of a Phishing web address that applies this principle. In the examples, your conversation partner is hsezis.de resp. Badcat.com (in blue). This is the area of ??the web address. <B> They do not make sense! </ B> </ string>
+
+    <! - TRUSTWORTHY SOUNDING DOMAINS ->
+    <String name = "level_06_intro_00_text_01"> <b> Attack by trustworthy sounding callers in the field </ b> \ n \ nIt is another trick to cast light on the use of trustworthy sounding callers in the area of ??a web address. With this type of attack, we are working on this level. </ String>
+    <String name = "level_06_intro_02_text_03"> The most important area of ??a web address, the "wer" area, must also be registered by the phisher. So check out the main two blocks of the web address, the area. If there are names that sound trustworthy, but still have nothing to do with your partner's name, then do not type any data on this site! </ B> \ n \ nWe are an example of a phishing- Web address that applies this principle. In the example, your conversation partner is security-update.de (blue background). This is the main area of ??the web address, the Who area. <B> Do not enter any data here, even if the web address sounds trustworthy! </ B> </ string>
+
+    <! - LEVEL 8 - similar characters / digits in domain ->
+    <String name = "level_08_intro_00_text_01"> <b> Attack by similar characters in the game area. </ B> \ n \ nIf another trick is to cast light on you, replacing characters in the wer area with other very similar looking characters Or numbers. With this type of attack, we are working on this level. </ String>
+    <String name = "level_08_intro_02_text_03"> The most important section of a web address, the "wer" area, must also be registered by the phisher. In this case, the phisher can replace letters in the familiar name with other similar characters or numbers so that the Wer area looks almost identical to the familiar name. So look at the main two blocks of the web address, the area. If there is a substitution of letters by other similar characters or numbers, <b> do not include any data on this website! </ B> \ n \ nExamples of phishing web addresses using this principle: </ string>
+    <String name = "level_08_intro_02_text_04"> An \ "w \" is replaced by 2x \ "v \": </ string>
+    <String name = "level_08_intro_02_text_05"> A \ "l \" is replaced by a \ "i \": </ string>
+    <String name = "level_08_intro_02_text_06"> A \ "l \" is replaced with a \ "1 \": </ string>
+    <String name = "level_08_intro_02_text_07"> Other examples: \ nm -> rn \ nh -> ln \ nk -> lx \ nd -> cl \ nap -> qo \ no -> 0 Only small letters are used) </ string>
+<! - LEVEL 9 - https and http ->
+    <String name = "level_10_intro_00_text_01"> <b> Security Level of the conversation </ b> \ n \ nSpecifications with companies can have a low or high security level. The first section of a web address gives you information about the security level. In this level we will deal with this area. </ String>
+    <String name = "level_10_intro_02_text_01"> <b> The security level range </ b> \ n \ nYou have encountered two different versions of the security level during the game: https: // and http : //. The first section of the web address represents the security level. We will start by explaining https: // and then terminate it at http: // </ string>
+    <String name = "level_10_intro_02_after_http_01"> www.deutsche-bank.de / </ string>
+    <String name = "level_10_intro_03_text_01"> <b> https </ b> \ n \ nIf a web address arrives with https: //, it is a high-security conversation (if the browser does not show a warning). The https: // assures you the following: \ n \ n1.) Your call is not received by anyone else (encryption of communication). \ N \ n2.) Your call partner can identify itself against a third trustworthy party (authentication of the conversation partner) / String>
+    <String name = "level_10_intro_04_text_01"> <b> https - Encryption of communication </ b> \ n \ nIf a web address starts with https: // this means that the conversation takes place in a closed room away from the public . That is, No one gets what you are talking about with the website or what user input you send (username, password, Kontodaten, etc.). The communication is thus encrypted. Encryption is very important especially when entering passwords or other sensitive data. \ N \ nIn the following example, your call partner is deutsche-bank.de (in blue). It is used with https: // (violet background), i. Nobody can read what data you send to deutsche-bank.de </ string>
+    <String name = "level_10_intro_05_text_01"> <b> https - Authentication of the conversation partner </ b> \ n \ nThe https: // also assures you that your conversation partner, In detail, the identity of your call partner was verified by a so-called certification body. \ N \ nThe following example is your interlocutor deutsche-bank.de (in blue). The web address starts with https (violet). Thus a certification body confirms the identity of deutsche-bank.de. </ String>
+    <String name = "level_10_intro_06_text_01"> <b> http </ b> \ n \ nIf a web address starts with http: //, the call is a low security level. The http: // means the following: \ n \ n1.) Everyone can hear your conversation, i. The communication is not </ b> encrypted \ n \ n2.) Your call partner has not been shown against a third trustworthy party. \ N \ nWhen you enter your username, password, account number, etc., you are in the public eye , Everyone can get this. The communication is thus not encrypted. In addition, you can not be sure that the conversation partner specified in the wer area is actually the one for which he is spending. Therefore you should not enter sensitive data on such websites, even if the Wer-Bereich is in order. Instead, you should contact the vendor and alert him / her to this problem. </ String>
+    <String name = "level_10_intro_07_text_01"> <b> Enter only at https: // data </ ??b> \ n \ nIf you enter data on a web page, you should always make sure that https: // is used Nobody can read your data and they will not get into the wrong hands. So if you've checked the Who area and you're using https: //, you can be sure that nobody can read your inputs and that they do not get into the wrong hands. </ String>
+    <String name = "level_10_intro_08_text_01"> <b> Caution! Never rely solely on the existence of https: // </ b>, because phishers can also use https: //. So, always look at the Who area to make sure you're really communicating with exactly the person you're talking to. \ N \ nThe following example is your phishing.de (blue background), and Not facebook. The https: // confirms that your conversation partner is really phisher.de and that no one else can get your conversation with him. </ B> Do not let the https: // fool you, do not enter any data! </ B> </ String>
+    <String name = "level_10_intro_09_text_01"> <b> Note </ b> \ n \ nMany web pages do not use https: // when the user needs to enter data. <B> Therefore, you should always insist on entering data
+<! - FINAL REMARKS LEVEL ->
+    <String name = "level_11_intro_00_text_01"> <b> Congratulations! </ B> \ n \ nYou have done all the levels. Finally, we would like to give you some valuable hints. </ String>
+    <String name = "level_11_intro_01_text_01"> <b> Confusing but legitimate web addresses </ b> \ n \ nIn this game, you've learned how to use web addresses to see if you're on a phishing web page. In order to describe many relevant features in a comprehensible manner, we have introduced the analogy of looking at the visited website as your conversation partner. The web address provides you with relevant information about the conversation. \ N \ nLeider sometimes the Web addresses of legitimate websites, suspicious of phishing web addresses look. \ N \ nFor the next pages, we would like to give you two examples / String>
+    <String name = "level_11_intro_02_text_01"> <b> Confusing but legitimate web addresses </ b> \ n \ nThe regular website of Commerzbank is available at the web address below. The Wer-Bereich is commerzbank.de (blue background). So far the web address looks very trustworthy, which is also it. </ String>
+    <String name = "level_11_intro_02_text_02"> If the user wants to perform online banking, he will go to the web address given below. Here is the Wer-Bereich at once commerzbanking.de (blue deposited). As you can see, the Wer-Bereich is just a similar modification of the Wer-Bereich of the regular Commerzbank-Website, i. One would identify this website as phishing. This is not a phishing web address. </ String>
+    <String name = "level_11_intro_04_text_01"> <b> Confusing but legitimate web addresses </ b> \ n \ n Here's another example of two legitimate web addresses, where the second looks like a phishing web address but is not: </ string>
+    <String name = "level_11_intro_03_text_01"> <b> Help us make the Internet safer </ b> \ n \ nSometimes, legitimate web addresses may look like phishing web addresses. For this reason, it is important to know exactly how the areas of your visited websites are! \ N In such confusing cases, we would like to suggest that you contact the appropriate company or bank. For example, you can find the contact details using Google's search engine. Never use the contact information provided on a potential phishing website. Do not enter any data before you are sure! Firstly, you can be sure that you do not enter any data on fake websites. Secondly, you can complain about why the company or the bank uses such confusing web addresses, helping to make the Internet a bit safer. </ String>
+    <String name = "level_11_intro_05_text_01"> <b> https: // </ b> \ n \ nYou have learned that the https: // of a web address assures two things: \ n \ n1 (Encryption of communication). \ N \ n2.) Your call partner can identify itself against a third trustworthy party (authentication of the call partner). </ String>
+<String name = "level_11_intro_05_text_01"> <b> https: // </ b> \ n \ nYou have learned that the https: // of a web address assures two things: \ n \ n1 (Encryption of communication). \ N \ n2.) Your call partner can identify itself against a third trustworthy party (authentication of the call partner). </ String>
+    <String name = "level_11_intro_06_text_01"> <b> https: // - Authentication of the conversation partner </ b> \ n \ nThis means that a so-called trustworthy certification body guarantees that the conversation partner is really the one for which he is spending. This certification body carries out certain identity checks and, in the event of a successful verification, issues a so-called certificate to the Wer-Bereich. This certificate assures you that your conversation partner is really the one specified in the field. </ String>
+    <String name = "level_11_intro_07_text_01"> <b> https: // - Identity Checks </ b> \ n \ nAll competition and price pressure among the certification bodies unfortunately lead to superficial and simplified certificates. It is thus possible that certificates certify identities which they should not confirm at all! For this reason, special certificates (Extended Validation SSL Certificates) have been introduced, which are issued under a more stringent identity check by special certification bodies. Some Internet browsers (unfortunately not the Android browser) offer the possibility to recognize websites with such special certificates, at first sight. This can be seen in the green area (lock + separate company name) </ string>
+    <String name = "level_11_intro_07_text_02"> For more information, please visit <b> bsi-fuer-buerger.de </ b>. Here's some general information about how to move around the web. \ N \ nA lot of success in uncovering phishing websites. Do not let it trick you! </ String>
+    <String name = "level_11_intro_08_text_01"> <b> Clicking links can be dangerous! </ B> \ n \ nIn this game, you've learned how to use Web addresses to see if you're on a phishing website. We concentrated on identifying the attack when you are on the site, as links can be fake. \ N \ nIf you do not trust a message from the beginning, you should not click on links when you are not sure. It is possible by clicking on malicious links to download malicious software. Therefore, you should check the web address before clicking. It is important to know what information you can rely on; I.d.R. In the webcontext to the display at the bottom left of the browser. Critical are web addresses, which you scan with a QR code scanner. Some scanners open the web page directly without displaying the web address. We therefore recommend the Privacy-Friendly QRC Code Scanner, developed in the SECUSO Group. </ String>
+    <String name = "level_11_intro_09_text_01"> <b> More tricks </ b> \ n \ n You've learned various tricks that phishers use to cast light on Internet users. However, there are other tricks that we have not dealt with in the game. The following are only examples: \ n \ n <u> <i> Tiny URL </ i> </ u> \ nIt may be that a phisher uses a so-called "short link" (Tiny URL) to the real target To conceal. \ N \ nZ.B. Http://tinyurl.com/nskuf85 \ n \ nto the NoPhish website \ n \ nhttps: //www.secuso.informatik.tu-darmstadt.de/de/secuso-home/research/results/nophish \ n \ NHrowlinks are shortened forms of web addresses, for example to facilitate the typing of web addresses. You can only check the URL after it has been resolved. To do this, you can use the following service: \ n \ n <b> http://longurl.org/ </ b> \ n \ nFor the safe side, you are not clicking on the link but the web address with which you are familiar Manually enter field. </ String>
+<String name = "level_11_intro_10_text_01"> </ i> Referrer </ i> </ i> A referrer is delivered whenever a user calls a website through a link on another page. By means of a so-called Dereferrers one can now "obfuscate" from which website one comes originally. If, for example, a link is opened via GMX, a dereferer is set before the actual destination URL. The original page is "<u> gmx.net </ u>" and the target page is "info.allyouneed.com </ u>". \ N \ nhttps: // <b> deref-gmx .net </ b> / mail / client / dereferrer /? RedirectUrl = http% 3A% 2F% 2F <b> info.allyouneed.com </ b>% 2Fgo% 2F0% 2F1LNSD479-1LM9YF2U-1L9EOOAX-VRYAL9.html% 3Frid% 3D12YEEUIW-19J53LF \ n \ nIf the web browser first calls the gmx page, it is redirected to <u> info.allyouneed.com </ u>. The site "<u> deref-gmx.net </ u>" unfortunately says nothing about the actual goal of the link. This process is e.g. To hide secret data in the original URL, e.g. The existence of the referencing web page. \ N \ n </ ccTLD </ i> </ u> \ nThere are also so-called ccTLDs (country-specific top-level domains). The top-level domain is the "wer" area. There are many legitimate websites that use this method, e.g. <U> www.amazon.co.uk </ u>. According to the previously learned rules ("Consider only the last two fields before the third slash") would be regarded as the "area" only <u> co.uk </ u>, but in this case unfortunately has no meaningfulness about the actual legitimacy Of the website. The co is only for "commercial" for a commercial company and uk for the United Kingdom. \ N \ n \ n Unfortunately, these two tricks are currently not addressed by the rules of NoPhish. In future versions, however, we will extend the rules by adding input to these tricks. </ String>
+    <String name = "level_11_intro_11_text_01"> <i> Country identifier </ i> </ u> \ nPhisher also try to use other country identifiers: \ n \ nhttps: //www.amazon.ss \ n \ t \ t \ N \ t \ t \ t \ t \ t \ t \ t \ r \ nhttp: //www.amazon.de \ n \ nIn this training the focus was on the name of the conversation partner. Often this is also sufficient. To be quite sure, it is also necessary to check the country code. It is important that when registering on a page, you will not only remember the name of the conversation partner in the area, but also the name of the conversation partner As well as the country code. \ N \ n <u> <i> Psychological tricks </ i> </ u> \ nPhinners often try to trick you into clicking on a link. In the past, this has been caused by the fact that (time) pressure has been built up, for example, because the account is otherwise blocked. \ NA new trick is to offer you two links. E.g. That a banktransaktion was carried out. There is then a link for "I have not done any transaction" and a link for "Yes, I have caused this transaction." </ String>
+    
+    <! - FINAL APP SCREEN ->
+    <String name = "congrats"> Congratulations </ string>
+    <String name = "text_final_app_screen"> You played the game completely. You learned a lot and are now armed against common phishing tricks. If you want to continue practicing, especially to refresh the learned times, you can jump over the level overview into the individual levels. \ N \ nFor the end, please take the time for a final qualification: \ n \ n • <a Href = 'https: //www.soscisurvey.com/NoPhish-Survey/? Q = Post'> App once played </a> \ n • <a href = 'https://www.soscisurvey.com/NoPhish- Survey /? Q = Retention '> App twice played </a> \ n \ nLove Greetings, \ nTo NoPhish Team </ string>
+    <String name = "back_to_home"> Go to main menu </ string>
+<! - TASKS AND SOLUTION SCREENS FROM LEVEL 3 ->
+    <String name = "legitimate"> Legitim </ string>
+    <String name = "yes"> Yes </ string>
+    <String name = "no"> No </ string>
+    <String name = "fake"> Fake </ string>
+    <String name = "URLs"> Correct: </ string>
+    <String name = "level_failed_title"> Level not passed! </ String>
+    <String name = "level_failed_text"> Unfortunately, you've lost all your lives. Try again! </ String>
+    <String name = "level_failed_button"> Restart Level </ string>
+    <String name = "url_timeout_title"> The time has expired! </ String>
+    <String name = "url_timeout_text"> You were too slow. You lose a life! </ String>
+    <String name = "url_timeout_button"> Next </ string>
+    <String name = "level_cancel_title"> Abort Level? </ String>
+    <String name = "level_cancel_text"> If you leave this page, your score will not be saved for this level. Are you sure? </ String>
+    <String name = "level_cancel_positive_button"> Exit Level </ string>
+    <String name = "level_cancel_negative_button"> Continue </ string>
+    <String name = "level_restart_title"> Restart Level? </ String>
+    <String name = "level_restart_text"> When you restart the level, your score is not saved for this level. Are you sure? </ String>
+    <String name = "level_restart_positive_button"> Restart Level </ string>
+    <String name = "level_restart_negative_button"> Continue </ string>
+    <String name = "ok"> OK </ string>
+    <String name = "url_task_providername"> You want to visit the web page of \ n \ b \ \ $ $ providername \\ </ string>
+    <String name = "url_task_description"> Do you trust the web address? </ String>
+    <String name = "url_task_desciription_level_10"> Would you enter data here? </ String>
+    <String name = "url"> Example URL </ string>
+    <String name = "level_score"> Level points: </ string>
+    <String name = "total_score"> Totals: </ string>
+    <String name = "level_max_score"> Achievable level points: </ string>
+    <String name = "phish_proof_01"> Yes, the web address is fake. Now show us the Wer-Bereich. <B> Type </ b> the appropriate location. </ String>
+    <String name = "phish_proof_09"> Yes, you decided correctly. Now show us the Wer-Bereich. <B> Type </ b> the appropriate location. </ String>
+    <String name = "you_are_wrong"> Wrong! You were tricked. This is a fake web address. Therefore, you lose a life. </ String>
+    <String name = "oversafe_text"> This web address is not fake. You can trust it. </ String>
+    <String name = "oversafe_02"> If you are unsure, however, it is better to be overbearing and not enter any data. In such cases, it is advisable to contact the appropriate call partner and ask for the trustworthiness of the suspicious web address. Alternatively, you can enter the name of the conversation partner into a search engine. The first results probably show the right website. </ String>
+    <String name = "you_are_correct"> Well done. This web address is not fake, you can trust it. </ String>
+    <String name = "you_guessed"> Sorry, you could not show us the area. </ String>
+    <String name = "level_10_you_are_correct"> Well done. You can fully trust this web address. </ String>
+    <String name = "level_10_you_are_wrong"> This was unfortunately wrong. </ String>
+    <String name = "level_10_you_are_correct_phish"> Well done. That was right. Caution is required with this web address! </ String>
+    <String name = "you_found_the_phish"> You've recognized the phish. Congratulations. </ String>
+    <String name = "exercise"> Exercise </ string>
+    <String name = "intro"> Introduction and Explanation </ string>
+    <String name = "finished"> Completed </ string>
+    <String name = "button_verify"> Check </ string>
+    <String name = "attack_reminder"> <b> Reminder: </ b> Do not trust .. </ string>
+    <String name = "oversafe"> Overhead </ string>
+    <String name = "correct"> Correct </ string>
+    <String name = "wrong"> False </ string>
+    <String name = "select_part"> You must select a part of the web address by clicking </ string>
+<! - subdomain ->
+    <String name = "level_03_reminder"> <b> Reminder: </ b> If the section of the department contains known partners, and the Wer-Bereich contains nonsensical, disreputable or even trustworthy conversational partners instead of the name of your conversation partner, No data! </ String>
+<String name = "reminder_subdomain"> 3.) If the section of the departments contains known conversation partners, and if the area contains nonsensical, disreputable or even unreliable partners instead of the name of your conversation partner, do not enter any data on this website! String>
+    <! - ip ->
+    <String name = "level_04_reminder"> <b> Reminder: </ b> Is the range between \ "http: // \" and the third slash \ "/ \" an IP address Separated), this is the Who area. Do not enter any data on this website! </ String>
+    <String name = "reminder_ip"> 1.) If the range between \ "http: // \" and the third slash \ "/ \" is an IP address, this is the Who area. Do not enter any data on this website! </ String>
+    <! - totally unrelated ->
+    <String name = "level_04_a_reminder"> <b> Reminder: </ b> If the web address does not contain the name of your conversation partner, do not enter any data on this website even if the section is trustworthy!
+    <String name = "reminder_no_brand"> 2.) If the web address does not contain the name of your conversation partner, do not enter any data on this web page, even if the section is trustworthy. </ String>
+    <! - nonsense ->
+    <String name = "level_12_reminder"> <b> Reminder: </ b> If the area does not have any meaning or has nothing to do with the service or company of your conversation partner, enter no data here! </ String>
+    <String name = "reminder_nonsense"> 3.) If the area does not have any meaning or has nothing to do with the service or company of your conversation partner, do not enter any data on this website! </ String>
+    <! - unrelated but trustworthy ->
+    <String name = "level_13_reminder"> <b> Reminder: </ b> If you have a conversation partner who sounds trustworthy but still has nothing to do with the business of your conversation partner, </ String>
+    <String name = "reminder_sounding_trustworthy"> 4.) If the area contains conversation partners that sound trustworthy, but still have nothing to do with the business of your conversation partner, do not enter any data! </ String>
+    <! - misleading (facebook-login) ->
+    <String name = "level_06_reminder"> <b> Reminder: </ b> If the Wer section only contains a similar modification of the familiar user area, do not enter any data on this website! </ String>
+    <String name = "reminder_misleading"> 5.) If the area contains only a similar modification of the familiar domain, do not enter any data on this website! </ String>
+<! - typo ->
+  <String name = "level_07_reminder"> <b> Reminder: </ b> If the Wer-Bereich contains a typo or spelling, do not enter any data on this website! </ String>
+    <String name = "reminder_typo"> 6.) If the Wer-Bereich contains a typographical error or a letter-keeper, do not enter any data on this website! </ String>
+    
+    <String name = "reminder_brand_in_domain"> 5.) If the area contains only a similar modification of the previously known domain, do not enter any data on this website! </ String>
+    <String name = "reminder_typosquat"> 7.) If the Wer area contains a letter ruler, do not enter any data on this website! </ String>
+    <! - homographic ->
+    <String name = "level_08_reminder"> <b> Reminder: </ string> If there is any substitution of letters for other similar characters or numbers, do not enter any data on this website! </ String>
+    <String name = "reminder_similar_chars"> 7.) If there is any substitution of letters by other similar characters or numbers, do not enter any data on this website! </ String>
+    
+    <! - hostname in path ->
+    <String name = "level_05_reminder"> <b> Reminder: </ b> If the area of ??the conversation topic contains known interlocutors or web addresses, the Wer area contains an IP address, nonsensical, disreputable or even unreliable conversational partners instead of your name Do not enter any data on this website! </ String>
+    <String name = "reminder_deceiving_path"> 4.) If the area of ??the conversation theme contains known interlocutors or web addresses, and the wer area contains an IP address, nonsensical, disreputable or even trustworthy call partners instead of the name of your conversation partner Do not enter any data! </ String>
+    <! - http / https ->
+    <String name = "level_10_reminder"> <b> Reminder: </ b> In this level, you should refuse web addresses that do not use https: //. In addition, you need to check that the web address is a phishing address. </ String>
+    <String name = "level_10_reminder_http_legitimate"> <b> Reminder: </ b> The web address is legitimate but only uses http: //. Therefore, you can not rely on the fact that your call can not be listened to by a third party. In addition, you are not assured with http: // that your conversation partner is the one that he pretends to be in the Wer-Bereich. </ String>
+    <String name = "level_10_reminder_http_phish"> <b> Reminder: </ b> This is a fake web address that uses http: //. If you trust this web address, you will leave your data to the phisher as well as to a potential third party. </ String>
+    <String name = "level_10_reminder_https_phish"> <b> Reminder: </ b> This is a fake web address that uses https: //. Here you are assured that your data can read only the phisher and no third party. In addition, you are assured that the phisher is the one that he pretends to be in the realm. </ String>
+    <String name = "title_activity_about"> About Us </ string>
+    <String name = "hello_world"> Hello world! </ String>
+    <String name = "number"> 10 </ string>
+    <String name = "title"> Title </ string>
+    <String name = "level_description"> Level Description </ string>
+<! - CONTENT DESCRIPTIONS FOR ACCESSIBILITY ->
+<String name = "content_desc_credits"> Credits </ string>
+    <String name = "content_desc_back_button"> Button Back </ string>
+    <String name = "content_desc_forward_button"> Button Next </ string>
+    <String name = "content_desc_facebook_screenshot_original"> Facebook Screenshot - original </ string>
+    <String name = "content_desc_facebook_screenshot_fake"> Facebook Screenshot - fake </ string>
+    <String name = "content_desc_symbol_book"> Book </ string>
+    <String name = "content_desc_symbol_pen"> Pen </ string>
+    <String name = "content_desc_smiley_bored"> Bored Face </ string>
+    <String name = "content_desc_button_send"> ButtonSend </ string>
+    <String name = "content_desc_medal"> Order </ string>
+    <String name = "content_desc_addr_bar"> address bar </ string>
+    <String name = "content_desc_i_know_that_btn"> Button that I can already </ string>
+    <String name = "content_desc_suprised"> Stunned Face </ string>
+    <String name = "content_desc_find_addr_bar"> Screenshot web page with address bar </ string>
+    <String name = "content_desc_click_addr_bar"> Select address text </ string>
+    <String name = "content_desc_slide_to_right"> Move the address to the right </ string>
+    <String name = "content_desc_start_of_address"> Arrived at the beginning of the Web address </ string>
+    <String name = "content_desc_click_here_button"> Button click here </ string>
+    <String name = "content_desc_arrow_up_en"> Arrow points to \ "de \" </ string>
+    <String name = "content_desc_arrow_up_spiegel"> Arrow points to \ "mirror \" </ string>
+    <String name = "content_desc_arrow_up_abo"> Arrow points to \ "abo \" </ string>
+    <String name = "content_desc_globe"> Globe </ string>
+    <String name = "content_desc_attention"> Caution </ string>
+    <String name = "content_desc_puzzle_units"> Puzzle Pieces </ string>
+    <String name = "content_desc_house"> House </ string>
+    <String name = "content_desc_computer"> Computer </ string>
+    <String name = "content_desc_confused_pinguin"> Confused penguin </ string>
+    <String name = "content_desc_innocent_looking_smiley_angel"> Innocent-looking smiley angel </ string>
+    <String name = "content_desc_twitter_logo"> A twitterlogo </ string>
+    <String name = "content_desc_one"> Number One </ string>
+    <String name = "content_desc_seven"> Number Seven </ string>
+    <String name = "content_desc_padlock"> Padlock </ string>
+    <String name = "content_desc_star"> Star </ string>
+    <String name = "content_desc_tik"> checkmark </ string>
+    <String name = "content_desc_play"> Play button </ string>
+    <String name = "content_desc_level_overview"> ButtonLevel overview </ string>
+    <String name = "content_desc_google_play"> Button Google Play </ string>
+    <String name = "content_desc_more_info"> Button More Information </ string>
+    <String name = "content_desc_about"> Button About Us </ string>
+    <String name = "content_desc_cross"> cross </ string>
+    <String name = "content_desc_smiling_face"> Smiling face </ string>
+    <String name = "content_desc_o_face"> Neutral face </ string>
+    <String name = "content_desc_sad_face"> Sad Face </ string>
+    <String name = "content_desc_disappointed_face"> Disappointed face </ string>
+    <String name = "content_desc_speech_balloon_amazon"> Balloon with Amazon logo </ string>
+    <String name = "content_desc_security_level_high"> Security </ string>
+    <String name = "content_desc_link"> ShowFinger - click on link </ string>
+    <String name = "content_desc_swipe_right"> Right swipen </ string>
+    <String name = "content_desc_start_level_button"> Start Level </ string>
+    <String name = "content_desc_single_tip"> Tap the corresponding location of the web address </ string>
+    <String name = "content_desc_life_1"> Lifestyles 1 </ string>
+    <String name = "content_desc_life_2"> Lifestyles 2 </ string>
+    <String name = "content_desc_life_3"> Lifestyles 3 </ string>
+    <String name = "title_activity_app_end"> Conclusions </ string>
+    <String name = "secuso_logo"> SECUSO Logo </ string>
+    <String name = "content_desc_confetti"> Confetti </ string>
+    <String name = "shown_urls"> Displayed addresses: </ string>
+    <String name = "correct_urls"> Recognized addresses: </ string>
+
+    <String-array name = "fromMails">
+    <! - no examples until we decide to do it again ->
+    <! - <item> phish@no-phish.de </ item> ->
+    </ String-array>
+
+</ Resources>
